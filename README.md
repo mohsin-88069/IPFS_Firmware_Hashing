@@ -1,4 +1,4 @@
-## This Project is the prototype implementation of Uploading any file on IPFS(particularly IOT Firmwares) network and calculating IPFS Hashes (starting with QM), 
+## This Project is the prototype implementation of Uploading any file on IPFS(particularly IOT Firmwares) network and calculating IPFS Hashes (starting with Qm), 
 
 > Completed under IIITA Internship, frontend of the project is under development...
 
