@@ -1,8 +1,6 @@
-# pure-ipfs-only-hash
+## This Project is the prototype implementation of Uploading any file on IPFS(particularly IOT Firmwares) network and calculating IPFS Hashes (starting with QM), 
 
-Fork of `ipfs-only-hash` without `rabin-wasm` dependency.
-
-[![Build Status](https://travis-ci.org/alanshaw/ipfs-only-hash.svg?branch=master)](https://travis-ci.org/alanshaw/ipfs-only-hash) [![dependencies Status](https://status.david-dm.org/gh/alanshaw/ipfs-only-hash.svg)](https://david-dm.org/alanshaw/ipfs-only-hash) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+> Completed under IIITA Internship, frontend of the project is under development...
 
 > Just enough code to calculate the IPFS hash for some data
 
@@ -51,10 +49,7 @@ Calculate the hash for the provided input.
 * `input` (`string|Uint8Array|AsyncIterable<Uint8Array>`): The input bytes to calculate the IPFS hash for. Note that Node.js readable streams are async iterable!
 * `options` (`Object`): Optional options passed directly to the `pure-ipfs-unixfs-importer` module. See the [API docs](https://github.com/ipfs/js-ipfs-unixfs-importer#api) for possible values.
 
-## Contribute
-
-Feel free to dive in! [Open an issue](https://github.com/alanshaw/ipfs-only-hash/issues/new) or submit PRs.
 
 ## License
 
-[MIT](LICENSE) © Alan Shaw
+[MIT](LICENSE)
