@@ -1,0 +1,40 @@
+{
+  "name": "pure-ipfs-only-hash",
+  "version": "4.0.2",
+  "description": "Just enough code to calculate the IPFS hash for some data",
+  "main": "index.js",
+  "bin": {
+    "ipfs-only-hash": "cli.js"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc --reporter=lcov --reporter=text ava --verbose",
+    "lint": "standard"
+  },
+  "keywords": [
+    "ipfs",
+    "hash",
+    "cid"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "devDependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.1",
+    "ava": "^3.2.0",
+    "cids": "^1.1.6",
+    "ipfs": "^0.54.4",
+    "nyc": "^15.0.0",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "meow": "^9.0.0",
+    "pure-ipfs-unixfs-importer": "^8.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airtune/pure-ipfs-only-hash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aoirtune/pure-ipfs-only-hash/issues"
+  },
+  "homepage": "https://github.com/Airtune/pure-ipfs-only-hash#readme"
+}
